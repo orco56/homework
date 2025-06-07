@@ -14,6 +14,7 @@ def check_winner(player, computer):
 
 def main():
     print("ברוך הבא לאבן, נייר ומספריים!")
+    print("האפשרויות הן: אבן,נייר,מספריים")
     player_choice = input("בחר: אבן, נייר או מספריים: ").strip()
 
     if player_choice not in options:
